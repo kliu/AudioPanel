@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F323281570C21E0071C959 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323271570C21E0071C959 /* UIKit.framework */; };
+		D0F3232A1570C21E0071C959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323291570C21E0071C959 /* Foundation.framework */; };
+		D0F3232C1570C21E0071C959 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F3232B1570C21E0071C959 /* CoreGraphics.framework */; };
+		D0F323321570C21E0071C959 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F323301570C21E0071C959 /* InfoPlist.strings */; };
+		D0F323341570C21E0071C959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F323331570C21E0071C959 /* main.m */; };
+		D0F323381570C21E0071C959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F323371570C21E0071C959 /* AppDelegate.m */; };
+		D0F3233B1570C21E0071C959 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F323391570C21E0071C959 /* MainStoryboard_iPhone.storyboard */; };
+		D0F3233E1570C21E0071C959 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F3233C1570C21E0071C959 /* MainStoryboard_iPad.storyboard */; };
+		D0F323411570C21E0071C959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F323401570C21E0071C959 /* ViewController.m */; };
+		D0F323781570C3A00071C959 /* AudioPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F323691570C3A00071C959 /* AudioPanel.xib */; };
+		D0F323791570C3A00071C959 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236A1570C3A00071C959 /* background.png */; };
+		D0F3237A1570C3A00071C959 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236B1570C3A00071C959 /* background@2x.png */; };
+		D0F3237B1570C3A00071C959 /* backroundsndbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236C1570C3A00071C959 /* backroundsndbutton.png */; };
+		D0F3237C1570C3A00071C959 /* backroundsndbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236D1570C3A00071C959 /* backroundsndbutton@2x.png */; };
+		D0F3237D1570C3A00071C959 /* musiclibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236E1570C3A00071C959 /* musiclibrary.png */; };
+		D0F3237E1570C3A00071C959 /* musiclibrary@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F3236F1570C3A00071C959 /* musiclibrary@2x.png */; };
+		D0F3237F1570C3A00071C959 /* recordsndbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323701570C3A00071C959 /* recordsndbutton.png */; };
+		D0F323801570C3A00071C959 /* recordsndbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323711570C3A00071C959 /* recordsndbutton@2x.png */; };
+		D0F323811570C3A00071C959 /* recordingsndbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323721570C3A00071C959 /* recordingsndbutton.png */; };
+		D0F323821570C3A00071C959 /* recordingsndbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323731570C3A00071C959 /* recordingsndbutton@2x.png */; };
+		D0F323831570C3A00071C959 /* pausesndbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323741570C3A00071C959 /* pausesndbutton.png */; };
+		D0F323841570C3A00071C959 /* pausesndbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323751570C3A00071C959 /* pausesndbutton@2x.png */; };
+		D0F323851570C3A00071C959 /* playsndbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323761570C3A00071C959 /* playsndbutton.png */; };
+		D0F323861570C3A00071C959 /* playsndbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0F323771570C3A00071C959 /* playsndbutton@2x.png */; };
+		D0F3238D1570C3B60071C959 /* AudioPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F3238C1570C3B60071C959 /* AudioPanel.m */; };
+		D0F3238F1570C4AC0071C959 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F3238E1570C4AC0071C959 /* CoreMedia.framework */; };
+		D0F323911570C4B70071C959 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323901570C4B70071C959 /* MobileCoreServices.framework */; };
+		D0F323931570C4C20071C959 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323921570C4C20071C959 /* AssetsLibrary.framework */; };
+		D0F323951570C4CA0071C959 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323941570C4CA0071C959 /* AudioToolbox.framework */; };
+		D0F323971570C4D50071C959 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323961570C4D50071C959 /* MediaPlayer.framework */; };
+		D0F323991570C4E00071C959 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F323981570C4E00071C959 /* AVFoundation.framework */; };
+		D0F3239B1570C4E70071C959 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F3239A1570C4E70071C959 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0F323231570C21E0071C959 /* AudioPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F323271570C21E0071C959 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0F323291570C21E0071C959 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0F3232B1570C21E0071C959 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0F3232F1570C21E0071C959 /* AudioPanel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPanel-Info.plist"; sourceTree = "<group>"; };
+		D0F323311570C21E0071C959 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0F323331570C21E0071C959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0F323351570C21E0071C959 /* AudioPanel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPanel-Prefix.pch"; sourceTree = "<group>"; };
+		D0F323361570C21E0071C959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0F323371570C21E0071C959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0F3233A1570C21E0071C959 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D0F3233D1570C21E0071C959 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D0F3233F1570C21E0071C959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0F323401570C21E0071C959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0F323691570C3A00071C959 /* AudioPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioPanel.xib; sourceTree = "<group>"; };
+		D0F3236A1570C3A00071C959 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		D0F3236B1570C3A00071C959 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		D0F3236C1570C3A00071C959 /* backroundsndbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backroundsndbutton.png; sourceTree = "<group>"; };
+		D0F3236D1570C3A00071C959 /* backroundsndbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backroundsndbutton@2x.png"; sourceTree = "<group>"; };
+		D0F3236E1570C3A00071C959 /* musiclibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musiclibrary.png; sourceTree = "<group>"; };
+		D0F3236F1570C3A00071C959 /* musiclibrary@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "musiclibrary@2x.png"; sourceTree = "<group>"; };
+		D0F323701570C3A00071C959 /* recordsndbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordsndbutton.png; sourceTree = "<group>"; };
+		D0F323711570C3A00071C959 /* recordsndbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recordsndbutton@2x.png"; sourceTree = "<group>"; };
+		D0F323721570C3A00071C959 /* recordingsndbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordingsndbutton.png; sourceTree = "<group>"; };
+		D0F323731570C3A00071C959 /* recordingsndbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recordingsndbutton@2x.png"; sourceTree = "<group>"; };
+		D0F323741570C3A00071C959 /* pausesndbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausesndbutton.png; sourceTree = "<group>"; };
+		D0F323751570C3A00071C959 /* pausesndbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pausesndbutton@2x.png"; sourceTree = "<group>"; };
+		D0F323761570C3A00071C959 /* playsndbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playsndbutton.png; sourceTree = "<group>"; };
+		D0F323771570C3A00071C959 /* playsndbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playsndbutton@2x.png"; sourceTree = "<group>"; };
+		D0F3238B1570C3B60071C959 /* AudioPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPanel.h; sourceTree = "<group>"; };
+		D0F3238C1570C3B60071C959 /* AudioPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPanel.m; sourceTree = "<group>"; };
+		D0F3238E1570C4AC0071C959 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D0F323901570C4B70071C959 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D0F323921570C4C20071C959 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D0F323941570C4CA0071C959 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D0F323961570C4D50071C959 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D0F323981570C4E00071C959 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0F3239A1570C4E70071C959 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0F323201570C21E0071C959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F3239B1570C4E70071C959 /* QuartzCore.framework in Frameworks */,
+				D0F323991570C4E00071C959 /* AVFoundation.framework in Frameworks */,
+				D0F323971570C4D50071C959 /* MediaPlayer.framework in Frameworks */,
+				D0F323951570C4CA0071C959 /* AudioToolbox.framework in Frameworks */,
+				D0F323931570C4C20071C959 /* AssetsLibrary.framework in Frameworks */,
+				D0F323911570C4B70071C959 /* MobileCoreServices.framework in Frameworks */,
+				D0F3238F1570C4AC0071C959 /* CoreMedia.framework in Frameworks */,
+				D0F323281570C21E0071C959 /* UIKit.framework in Frameworks */,
+				D0F3232A1570C21E0071C959 /* Foundation.framework in Frameworks */,
+				D0F3232C1570C21E0071C959 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F323181570C21E0071C959 = {
+			isa = PBXGroup;
+			children = (
+				D0F3239A1570C4E70071C959 /* QuartzCore.framework */,
+				D0F323981570C4E00071C959 /* AVFoundation.framework */,
+				D0F323961570C4D50071C959 /* MediaPlayer.framework */,
+				D0F323941570C4CA0071C959 /* AudioToolbox.framework */,
+				D0F323921570C4C20071C959 /* AssetsLibrary.framework */,
+				D0F323901570C4B70071C959 /* MobileCoreServices.framework */,
+				D0F3238E1570C4AC0071C959 /* CoreMedia.framework */,
+				D0F3232D1570C21E0071C959 /* AudioPanel */,
+				D0F323261570C21E0071C959 /* Frameworks */,
+				D0F323241570C21E0071C959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F323241570C21E0071C959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0F323231570C21E0071C959 /* AudioPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0F323261570C21E0071C959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F323271570C21E0071C959 /* UIKit.framework */,
+				D0F323291570C21E0071C959 /* Foundation.framework */,
+				D0F3232B1570C21E0071C959 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F3232D1570C21E0071C959 /* AudioPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D0F323361570C21E0071C959 /* AppDelegate.h */,
+				D0F323371570C21E0071C959 /* AppDelegate.m */,
+				D0F323391570C21E0071C959 /* MainStoryboard_iPhone.storyboard */,
+				D0F3233C1570C21E0071C959 /* MainStoryboard_iPad.storyboard */,
+				D0F3233F1570C21E0071C959 /* ViewController.h */,
+				D0F323401570C21E0071C959 /* ViewController.m */,
+				D0F323681570C34B0071C959 /* AudioPanel */,
+				D0F3232E1570C21E0071C959 /* Supporting Files */,
+			);
+			path = AudioPanel;
+			sourceTree = "<group>";
+		};
+		D0F3232E1570C21E0071C959 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3232F1570C21E0071C959 /* AudioPanel-Info.plist */,
+				D0F323301570C21E0071C959 /* InfoPlist.strings */,
+				D0F323331570C21E0071C959 /* main.m */,
+				D0F323351570C21E0071C959 /* AudioPanel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0F323681570C34B0071C959 /* AudioPanel */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3238B1570C3B60071C959 /* AudioPanel.h */,
+				D0F3238C1570C3B60071C959 /* AudioPanel.m */,
+				D0F323691570C3A00071C959 /* AudioPanel.xib */,
+				D0F3236A1570C3A00071C959 /* background.png */,
+				D0F3236B1570C3A00071C959 /* background@2x.png */,
+				D0F3236C1570C3A00071C959 /* backroundsndbutton.png */,
+				D0F3236D1570C3A00071C959 /* backroundsndbutton@2x.png */,
+				D0F3236E1570C3A00071C959 /* musiclibrary.png */,
+				D0F3236F1570C3A00071C959 /* musiclibrary@2x.png */,
+				D0F323701570C3A00071C959 /* recordsndbutton.png */,
+				D0F323711570C3A00071C959 /* recordsndbutton@2x.png */,
+				D0F323721570C3A00071C959 /* recordingsndbutton.png */,
+				D0F323731570C3A00071C959 /* recordingsndbutton@2x.png */,
+				D0F323741570C3A00071C959 /* pausesndbutton.png */,
+				D0F323751570C3A00071C959 /* pausesndbutton@2x.png */,
+				D0F323761570C3A00071C959 /* playsndbutton.png */,
+				D0F323771570C3A00071C959 /* playsndbutton@2x.png */,
+			);
+			path = AudioPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0F323221570C21E0071C959 /* AudioPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0F323441570C21E0071C959 /* Build configuration list for PBXNativeTarget "AudioPanel" */;
+			buildPhases = (
+				D0F3231F1570C21E0071C959 /* Sources */,
+				D0F323201570C21E0071C959 /* Frameworks */,
+				D0F323211570C21E0071C959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPanel;
+			productName = AudioPanel;
+			productReference = D0F323231570C21E0071C959 /* AudioPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0F3231A1570C21E0071C959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D0F3231D1570C21E0071C959 /* Build configuration list for PBXProject "AudioPanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0F323181570C21E0071C959;
+			productRefGroup = D0F323241570C21E0071C959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0F323221570C21E0071C959 /* AudioPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0F323211570C21E0071C959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F323321570C21E0071C959 /* InfoPlist.strings in Resources */,
+				D0F3233B1570C21E0071C959 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D0F3233E1570C21E0071C959 /* MainStoryboard_iPad.storyboard in Resources */,
+				D0F323781570C3A00071C959 /* AudioPanel.xib in Resources */,
+				D0F323791570C3A00071C959 /* background.png in Resources */,
+				D0F3237A1570C3A00071C959 /* background@2x.png in Resources */,
+				D0F3237B1570C3A00071C959 /* backroundsndbutton.png in Resources */,
+				D0F3237C1570C3A00071C959 /* backroundsndbutton@2x.png in Resources */,
+				D0F3237D1570C3A00071C959 /* musiclibrary.png in Resources */,
+				D0F3237E1570C3A00071C959 /* musiclibrary@2x.png in Resources */,
+				D0F3237F1570C3A00071C959 /* recordsndbutton.png in Resources */,
+				D0F323801570C3A00071C959 /* recordsndbutton@2x.png in Resources */,
+				D0F323811570C3A00071C959 /* recordingsndbutton.png in Resources */,
+				D0F323821570C3A00071C959 /* recordingsndbutton@2x.png in Resources */,
+				D0F323831570C3A00071C959 /* pausesndbutton.png in Resources */,
+				D0F323841570C3A00071C959 /* pausesndbutton@2x.png in Resources */,
+				D0F323851570C3A00071C959 /* playsndbutton.png in Resources */,
+				D0F323861570C3A00071C959 /* playsndbutton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0F3231F1570C21E0071C959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F323341570C21E0071C959 /* main.m in Sources */,
+				D0F323381570C21E0071C959 /* AppDelegate.m in Sources */,
+				D0F323411570C21E0071C959 /* ViewController.m in Sources */,
+				D0F3238D1570C3B60071C959 /* AudioPanel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0F323301570C21E0071C959 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F323311570C21E0071C959 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0F323391570C21E0071C959 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F3233A1570C21E0071C959 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0F3233C1570C21E0071C959 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0F3233D1570C21E0071C959 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0F323421570C21E0071C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0F323431570C21E0071C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0F323451570C21E0071C959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPanel/AudioPanel-Prefix.pch";
+				INFOPLIST_FILE = "AudioPanel/AudioPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0F323461570C21E0071C959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPanel/AudioPanel-Prefix.pch";
+				INFOPLIST_FILE = "AudioPanel/AudioPanel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0F3231D1570C21E0071C959 /* Build configuration list for PBXProject "AudioPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F323421570C21E0071C959 /* Debug */,
+				D0F323431570C21E0071C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0F323441570C21E0071C959 /* Build configuration list for PBXNativeTarget "AudioPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0F323451570C21E0071C959 /* Debug */,
+				D0F323461570C21E0071C959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0F3231A1570C21E0071C959 /* Project object */;
+}
